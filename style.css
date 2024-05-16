@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e0f7fa;
+    background-color: #000000;
+    color:#ffffff;
     /* Light cyan */
     text-align: center;
     margin: 0;
@@ -11,7 +12,6 @@ h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
     /* Larger font size for headings */
-    color: #00796b;
     /* Teal */
     margin-bottom: 30px;
 }
@@ -20,9 +20,12 @@ img.pop-icon {
     width: 150px;
     margin: 20px auto;
 }
+.images img{
+    height: 250px;
+    width: auto;
+}
 
 p {
-    color: #004d40;
     /* Darker teal for contrast */
     margin: 10px 0;
 }
